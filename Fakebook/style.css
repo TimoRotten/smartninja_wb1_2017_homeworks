@@ -1,0 +1,133 @@
+/* General Styles */
+
+*, html, body, div, span, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #A60303;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color: grey;
+}
+
+.container {
+  margin: 0 25px 0 25px;
+}
+
+/* Header */
+
+header {
+  background: #A60303;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+}
+
+header h1 {
+  line-height: 100px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Profile Pic & Banner */
+
+.profile-top {
+  height: 200px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/05/29/20/57/coffee-2354892_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-pic img {
+  width: 30%;
+  float: left;
+  margin-left: -15px;
+}
+
+/* Name */
+
+#name h2 {
+  color: #000;
+  text-align: left;
+  line-height: 50px;
+}
+
+/* Social Icons */
+
+#social {
+  float: left;
+  margin-bottom: 20px;
+}
+
+#social ul {
+  list-style: none;
+  padding: 0;
+}
+
+#social ul li {
+  display: inline-block;
+  font-size: 2em;
+}
+
+#social ul li a {
+  text-decoration: none;
+  color: #A60303;
+  padding: 0px 5px 0px 5px;
+}
+
+#social ul li a:hover {
+  color: grey;
+}
+
+/* About Section */
+
+#about {
+  clear: left;
+}
+
+#about h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+table.center {
+  text-align: left;
+}
+
+table.center td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Contact Button */
+
+#contact a.button {
+  background-color: #A60303;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 25px;
+  float: left;
+}
+
+#contact a.button:hover {
+  background-color: grey;
+  color: white;
+}

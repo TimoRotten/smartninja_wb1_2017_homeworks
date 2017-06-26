@@ -1,59 +1,91 @@
 /* General Styles */
 
 *, html, body, div, span, header {
-  margin: 0;
-  padding: 0;
-  border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: #E5E3E1;
 }
 
 a {
-  text-decoration: none;
-  color: #A60303;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+    text-decoration: none;
+    color: #A60303;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
 a:hover {
-  color: grey;
+    color: grey;
 }
 
-.container {
-  margin: 0 25px 0 25px;
+.separator {
+    height: 25px;
+    background-color: #101010;
 }
 
-/* Header */
-
-header {
-  background: #A60303;
-  width: 100%;
-  height: 100px;
-  margin: 0;
+.block_background {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-top: 10px solid gray;
+    padding: 5px 20px;
+    margin: 10px 0;
+    display: inline-block;
 }
 
-header h1 {
-  line-height: 100px;
-  color: #fff;
-  text-align: center;
+/* Content */
+
+#content.container {
+    margin: auto;
+    padding: 20px 60px;
 }
 
 /* Profile Pic & Banner */
 
 .profile-top {
-  height: 200px;
-  background-image: url("https://cdn.pixabay.com/photo/2017/05/29/20/57/coffee-2354892_960_720.jpg");
+  height: 450px;
+  background-image: url("images/bg_coffeesepia.jpeg");
   background-size: cover;
-  background-position: center;
+  background-position: left top;
+  background-attachment: fixed;
+  margin-top: 0;
 }
 
 .profile-pic img {
-  width: 30%;
+  width: 430px;
   float: left;
-  margin-left: -15px;
+  margin: 40px 0 0 -20px;
+  border-left: 5px solid #000;
+  border-right: 5px solid #000;
+}
+
+/* Right Section */
+
+#right .container {
+    float: right;
+    width: 70%;
+    margin-right: 30px;
+}
+
+#right h3 {
+    margin-top: 10px;
+}
+
+.date {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+/* Left Section */
+#left {
+    width: 20%;
+    display: inline-block;
+
 }
 
 /* Name */
@@ -66,14 +98,8 @@ header h1 {
 
 /* Social Icons */
 
-#social {
-  float: left;
-  margin-bottom: 20px;
-}
-
 #social ul {
   list-style: none;
-  padding: 0;
 }
 
 #social ul li {
@@ -93,13 +119,9 @@ header h1 {
 
 /* About Section */
 
-#about {
-  clear: left;
-}
-
 #about h3 {
   text-align: left;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 table.center {
@@ -123,11 +145,11 @@ table.center td {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 25px;
-  float: left;
+  margin: 25px 0;
 }
 
 #contact a.button:hover {
   background-color: grey;
   color: white;
 }
+

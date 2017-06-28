@@ -1,0 +1,210 @@
+/* Basic Styles */
+
+/* Buttons */
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section Heading */
+
+.section_heading {
+    margin: 0px auto 45px;
+}
+
+.section_heading > h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Links */
+
+a:focus {
+    outline: none;
+}
+
+/* Modals */
+
+.modal-body p {
+    text-align: justify;
+}
+
+/* HEADER SECTION */
+
+/* Navigation */
+
+.navbar-inverse {
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #c9d1d8;
+}
+
+.navbar-brand {
+    color: #c9d1d8;
+}
+
+/* Carousel */
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-inner img {
+
+}
+
+
+/* SERVICE SECTION */
+
+#services {
+    padding: 80px 0 30px;
+}
+
+/* Service Boxes */
+.serviceBox{
+    text-align: center;
+}
+.serviceBox .service-icon{
+    width: 229px;
+    height: 229px;
+    border-radius: 50%;
+    background: transparent;
+    border: 13px solid #c9d1d8;
+    margin: 0 auto 37px;
+    padding: 35px 0 0;
+    transition: all 0.25s ease 0s;
+}
+.serviceBox:hover .service-icon{
+    background:#293f4c;
+}
+.serviceBox .service-icon span{
+    border-bottom: 5px solid #317da9;
+    color: #317da9;
+    display: inline-block;
+    font: bold 48px/54px "Arial Black";
+    margin-bottom: 16px;
+    transition: all 0.25s ease 0s;
+}
+.serviceBox:hover .service-icon span{
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.serviceBox .service-icon h3{
+    color: #293f4c;
+    display: block;
+    font: bold 18px/24px "Arial";
+    margin-top: 0;
+    text-transform: capitalize;
+    transition: all 0.25s ease 0s;
+}
+.serviceBox:hover .service-icon h3{
+    color: #fff;
+}
+.serviceBox .service-content p {
+    color: #4d6574;
+    font: 12px/24px "Arial";
+    margin-bottom: 29px;
+}
+.serviceBox .read {
+    background: #293f4c;
+    color: #fff;
+    display: inline-block;
+    font: bold 16px/53px "Arial";
+    padding: 0 32px;
+    text-transform: capitalize;
+    transition: all 0.25s ease 0s;
+}
+.serviceBox:hover .read{
+    background: #327fab;
+    text-decoration: none;
+}
+@media screen and (max-width: 990px){
+    .serviceBox{
+        margin-bottom: 30px;
+    }
+}
+
+/* APPOINTMENT SECTION */
+
+#appointment {
+    padding: 80px 0 30px;
+    background-color: #c9d1d8;
+}
+
+#appointment .container {
+    width: 75%;
+}
+
+
+/* FAQ SECTION */
+
+#faq {
+    padding: 80px 0 30px;
+}
+
+#faq > .container {
+    width: 75%;
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    padding: 25px 0 25px;;
+}
+
+#footer div.container {
+    width: 75%;
+}
+
+#footer h3 {
+    margin-top: 0;
+}
+
+#footer img {
+    max-width: 150px;
+    margin: auto;
+    border: 2px solid #fff;
+}
+
+#footer ul {
+    padding: 0;
+}
+
+#footer li {
+    list-style: none;
+    text-align: left;
+}
+
+#footer li a {
+    text-decoration: none;
+}
+
+#footer nav, #footer nav li {
+    text-align: right;
+}
+
+@media screen and (max-width: 765px) {
+
+    #footer nav, #footer nav li {
+        text-align: center;
+    }
+
+    .contact, #footer li {
+        text-align: center;
+    }
+
+    #footer img {
+        margin: 15px auto;
+    }
+
+}

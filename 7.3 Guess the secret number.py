@@ -1,7 +1,6 @@
 
 
 secret = 7
-guess = 0
 
 while True:
     guess = int(raw_input("Please guess the secret number: "))

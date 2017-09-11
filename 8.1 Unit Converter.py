@@ -15,7 +15,7 @@ try:
         print symbol*28
 
         repeat = str(raw_input("Wanna convert more? (Y/N) "))
-        if repeat == "N":
+        if repeat.lower() == "n":
             print symbol * 7
             print "Bye Bye"
             print symbol * 7

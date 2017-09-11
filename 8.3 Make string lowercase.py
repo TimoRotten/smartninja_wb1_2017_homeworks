@@ -1,10 +1,10 @@
 # coding=utf-8
 
 s = "Wurstbrot"
-print(s.lower())
+print s.lower()
 
 t = "StrAße"
-print (t.lower())
+print t.lower()
 
 e = "Hägen Smöre Brüt"
 print e.lower()
